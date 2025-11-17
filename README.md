@@ -102,6 +102,6 @@ while (matcher.find()) {
 This section provides everything needed to use Regex professionally in Java test automation:
 
 Syntax
-Real automation examples
-Ready-to-use patterns
-Clean reusable template
+- Real automation examples
+- Ready-to-use patterns
+- Clean reusable template

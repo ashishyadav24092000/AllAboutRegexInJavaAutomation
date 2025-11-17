@@ -23,23 +23,24 @@ Filter data from large strings / JSON / logs
 
 ✅ 2. Basic Regex Syntax (Most Used)
 Pattern	Meaning
-.	Any character
-\d	Digit (0–9)
-\D	Non-digit
-\w	Word character (A–Z, a–z, 0–9, _)
-\W	Non-word character
-\s	Space
-^	Start of string
-$	End of string
-.*	Match anything
-.+	One or more characters
-?	Optional
-{n}	Exactly n occurrences
-{n,m}	Between n and m
-[abc]	a or b or c
-[a-z]	Range
-`	`
-( )	Grouping
+- .	Any character
+- \d	Digit (0–9)
+- \D	Non-digit
+- \w	Word character (A–Z, a–z, 0–9, _)
+- \W	Non-word character
+- \s	Space
+- ^	Start of string
+- $	End of string
+- .*	Match anything
+- .+	One or more characters
+- ?	Optional
+- {n}	Exactly n occurrences
+- {n,m}	Between n and m
+- [abc]	a or b or c
+- [a-z]	Range
+- `	`
+- ( )	Grouping
+- 
 ✅ 3. Practical Automation Examples
 🔹 Check if email format is valid
 boolean isValid = Pattern.matches("^[A-Za-z0-9+_.-]+@(.+)$", email);
